@@ -1,10 +1,11 @@
 name: command_runner
 description: A starting point for Dart libraries or applications.
 version: 1.0.0
+resolution: workspace
 # repository: https://github.com/my_org/my_repo
 
 environment:
-  sdk: ^3.11.4
+  sdk: ^3.11.5
 
 # Add regular dependencies here.
 dependencies:
