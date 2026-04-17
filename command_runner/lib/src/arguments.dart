@@ -111,7 +111,7 @@ abstract class Command extends Argument {
     );
   }
 
-  Future<Object?> run(ArgResults args);
+  FutureOr<Object?> run(ArgResults args);
 
   @override
   String get usage {
